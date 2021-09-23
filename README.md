@@ -10,4 +10,4 @@ Jhonathan - CSS3 features.
 
 1) Clone project 
 2) Copy path to index.html
-3) Paste paste path to your browser
+3) Paste path to your browser
