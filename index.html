@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Stop</title>
+		<meta name="description" content="Get through the traffic!">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="stop.css">
+    <!-- <script src="jquery-3.5.1.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="stop.js"></script>
+	</head>
+	<body>
+		<header>
+			<!-- <h1>No Cop No </h1> -->
+			<figure class="stop-sign animated rubberBand">
+  <div>
+    <div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <span>STOP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</figure>
+<button id="restart">Restart</button>
+		</header>
+		<br>
+		<section id="game-section">
+      <div id="candiv">
+        <canvas id="myCanvas"></canvas>
+      </div>
+      <div>
+        <span id="instr">Hover over here for instructions Get the car across without hitting another car.</span>
+        <span id="score">Score: 0</span>
+      </div>
+		</section>
+
+<hr>
+		<footer>
+			<p>Press Arrows
+			<div class="position">
+			    <ul>
+			        <li title="Move Up" class="arrowUp" id="moveUp">
+              </li>
+			        <li title="Move Down" class="arrowDown" id="moveDown">
+              </li>
+			    </ul>
+			</div>
+      to play
+    </p>
+    </footer>
+    <div class="left">
+      <a href="" class="btn btn1" id="#Info">Click for info</a>
+    </div>
+    <pre id="hiddentext" style="display: none;">This game was designed by: Jhonathan Malagon, Nicholas Klonne, and Arnaud Filliat
+Cars come 10% faster each level, and your score per level is linked to a timer based on how fast you get across the road.
+You can click the arrow buttons with your mouse or press the arrow keys on your keyboard to play.
+Please Enjoy!
+    </pre>
+		<!-- Image loads for use in JS-->
+		<img src="images/car-fast.png" alt="Fast Car" id="car-fast" style="display:none;">
+		<img src="images/car-medium.png" alt="Medium Car" id="car-med" style="display:none;">
+		<img src="images/car-slow.png" alt="Slow Car" id="car-slow" style="display:none;">
+		<img src="images/car-fast-left.png" alt="Fast Car" id="car-fast-left" style="display:none;">
+		<img src="images/car-medium-left.png" alt="Medium Car" id="car-med-left" style="display:none;">
+		<img src="images/car-slow-left.png" alt="Slow Car" id="car-slow-left" style="display:none;">
+		<img src="images/car-fast-right.png" alt="Fast Car" id="car-fast-right" style="display:none;">
+		<img src="images/car-medium-right.png" alt="Medium Car" id="car-med-right" style="display:none;">
+		<img src="images/car-slow-right.png" alt="Slow Car" id="car-slow-right" style="display:none;">
+	</body>
+</html>
